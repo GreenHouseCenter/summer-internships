@@ -1,0 +1,262 @@
+* {
+    scroll-behavior: smooth
+  }
+
+  #logo {
+    margin: auto;
+    display: block;
+  }
+  
+  #page-title {
+    text-align: center;
+  }
+  
+  .headings {
+    font-family: 'Domine';
+    font-size: 32px;
+    color: #444444;
+  }
+  
+  .internship-wrapper {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 18px;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+      border-left: 1px solid #ccc;
+      border-top: 2px solid #ccc;
+      border-right: 2px solid #888;
+      border-bottom: 1px solid #888;
+  }
+  
+  /*********************************/
+  /********* Sidebar Menu **********/
+  /*********************************/
+  
+  @media (max-width: 599px) {
+    body {
+      margin: 0;
+    }
+    .sidebar {
+      position: fixed;
+      width: 100%;
+      background: #4b4276;
+    }
+    
+    .sidebar li {
+      padding: 5px 10px;
+    }
+  }
+  @media (min-width: 600px) {
+    .sidebar {
+      position: fixed;
+      width: 250px;
+      Height: 100%;
+      background: #4b4276
+    }
+    
+    .sidebar li {
+      padding: 10px 15px;
+    }
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #bdb8d7;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+  }
+  
+  .sidebar .fa-solid {
+    width: 35px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  @media (max-width: 599px) {
+    * {
+      scroll-margin-top: 140px;
+    }
+    .main-content {
+      margin-top: 120px;
+    }
+  }
+  @media (min-width: 600px) {
+    .main-content {
+      margin-left: 250px;
+      width: 100%
+    }
+  }
+  
+  /*********************************/
+  /********** Grid Layout **********/
+  /*********************************/
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .span-2 {
+    grid-column: span 2;
+  }
+  
+  .span-3 {
+    grid-column: span 3;
+  }
+  
+  .span-4 {
+    grid-column: span 4;
+  }
+  
+  /*********************************/
+  /******** Web Development ********/
+  /*********************************/
+  
+  @media (min-width: 1000px) {
+    #web-dev-text-1 {
+      grid-column: span 3;
+    }
+    #web-dev-pic-1 {
+      grid-column: span 1;
+    }
+    #web-dev-pic-2 {
+      grid-column: span 1;
+    }
+    #web-dev-text-2 {
+      grid-column: span 3;
+    }
+    #web-dev-text-3 {
+      grid-column: span 2;
+    }
+    #web-dev-text-4 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-3 {
+      grid-column: span 1;
+    }
+    #web-dev-pic-4 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-5 {
+      grid-column: span 1;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 999px) {
+    #web-dev-text-1 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-1 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-2 {
+      grid-column: span 2;
+    }
+    #web-dev-text-2 {
+      grid-column: span 2;
+    }
+    #web-dev-text-3 {
+      grid-column: span 4;
+    }
+    #web-dev-text-4 {
+      grid-column: span 4;
+    }
+    #web-dev-pic-3 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-4 {
+      grid-row-start: 5;
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    #web-dev-pic-5 {
+      grid-column: span 2;
+    }
+  }
+  @media (max-width: 599px) {
+    #web-dev-text-1 {
+      grid-column: span 4;
+    }
+    #web-dev-pic-1 {
+      grid-column: span 4;
+    }
+    #web-dev-pic-2 {
+      grid-column: span 4;
+    }
+    #web-dev-text-2 {
+      grid-column: span 4;
+    }
+    #web-dev-text-3 {
+      grid-column: span 4;
+    }
+    #web-dev-text-4 {
+      grid-column: span 4;
+    }
+    #web-dev-pic-3 {
+      grid-column: span 2;
+    }
+    #web-dev-pic-4 {
+      grid-column: span 4;
+      grid-row-start: 8;
+    }
+    #web-dev-pic-5 {
+      grid-column: span 2;
+    }
+  }
+  
+  /*********************************/
+  /********** Photography **********/
+  /*********************************/
+  
+  @media (min-width: 1000px) {
+    
+  }
+  @media (min-width: 600px) and (max-width: 999px) {
+    
+  }
+  @media (max-width: 599px) {
+    
+  }
+  
+  /*********************************/
+  /********* Culinary Arts *********/
+  /*********************************/
+  
+  @media (min-width: 1000px) {
+    
+  }
+  @media (min-width: 600px) and (max-width: 999px) {
+    
+  }
+  @media (max-width: 599px) {
+    
+  }
+  
+  /*********************************/
+  /**** Recreational Leadership ****/
+  /*********************************/
+  
+  @media (min-width: 1000px) {
+    
+  }
+  @media (min-width: 600px) and (max-width: 999px) {
+    
+  }
+  @media (max-width: 599px) {
+    
+  }
